@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.logInBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d5ffc7;
+  background: linear-gradient(0deg, #d5ffc7 0%, #a0dac5 5%, #22c1c3 75%);
+  height: 100vh;
+  width: 100vw; }
+
+.logInDiv {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.562);
+  border-radius: 7px;
+  height: 68vh;
+  width: 90vw;
+  margin-bottom: 10vh; }
+  .logInDiv .divOne {
+    margin-top: 2vh;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column; }
+    .logInDiv .divOne img {
+      height: 10em; }
+    .logInDiv .divOne hr {
+      width: 80%; }
+  .logInDiv .divTwo {
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column; }
+    .logInDiv .divTwo input {
+      background-color: rgba(255, 255, 255, 0);
+      border-style: none none double none;
+      font-size: 15px;
+      padding: 5px; }
+  .logInDiv .divThree {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row; }
+    .logInDiv .divThree input {
+      padding: 6px 18px;
+      font-size: 16px;
+      border-radius: 5px;
+      background-color: rgba(134, 5, 255, 0.164);
+      border-style: dashed; }
+
+.logInFooter {
+  position: absolute;
+  bottom: 5px;
+  color: #636363; }
+
+.homeBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d5ffc7;
+  background: linear-gradient(0deg, #d5ffc7 0%, #a0dac5 5%, #22c1c3 75%);
+  height: 100vh;
+  width: 100vw; }
+  .homeBody header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.562);
+    border-radius: 7px;
+    height: 90px;
+    width: 90px;
+    top: 10px; }
+    .homeBody header img {
+      height: 70px; }
+  .homeBody main {
+    margin-top: 9vh;
+    height: 84vh;
+    width: 90vw; }
+    .homeBody main section {
+      background-color: rgba(255, 255, 255, 0.562);
+      border-radius: 7px;
+      width: 90vw;
+      margin-bottom: 10px;
+      padding: 10px; }
+      .homeBody main section label {
+        font-size: 20px; }
+      .homeBody main section hr {
+        margin-bottom: 5px;
+        background-color: black; }
