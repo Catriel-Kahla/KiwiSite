@@ -63,6 +63,7 @@
 .homeBody {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   background: #d5ffc7;
   background: linear-gradient(0deg, #d5ffc7 0%, #a0dac5 5%, #22c1c3 75%);
@@ -72,7 +73,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     background-color: rgba(255, 255, 255, 0.562);
     border-radius: 7px;
     height: 90px;
@@ -81,9 +81,9 @@
     .homeBody header img {
       height: 70px; }
   .homeBody main {
-    margin-top: 9vh;
+    margin-top: 1vh;
     height: 84vh;
-    width: 90vw; 
+    width: 90vw;
     overflow: hidden; }
     .homeBody main section {
       background-color: rgba(255, 255, 255, 0.562);
@@ -96,3 +96,6 @@
       .homeBody main section hr {
         margin-bottom: 5px;
         background-color: black; }
+  .homeBody footer {
+    margin-top: 1vh;
+    color: #636363; }
